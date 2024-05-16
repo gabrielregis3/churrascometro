@@ -38,10 +38,6 @@ function calcular() {
         return;
     }
 
-    if (divResultado) {
-
-    }
-
     escondeBotoesCalculo();
 
     resultado.innerHTML = `<p>${qtdTotalCarne / 1000} Kg. de Carne</p>`
