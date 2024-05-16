@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Churrascômetro</h1>
+        <input class="input-calculo" id="qtd_adultos" name="qtd_adultos" placeholder="Número de Adúltos" type="number">
+        <input class="input-calculo" id="qtd_criancas" name="qtd_criancas" placeholder="Número de Crianças" type="number">
+        <input class="input-calculo" id="duracao" name="duracao" placeholder="Duração (em horas)" type="number">
+
+        <div id="resultado" class="resultado">
+
+        </div>
+
+        <div class="botoes" id="botoes">
+            <button class="btn-calculo" id="btn-calcular" onclick="calcular()">Calcular</button>
+            <button class="btn-limpa-campos" id="btn-limpar-campos" onclick="limpaCampos()">Limpar campos</button>
+        </div>
+
+        <div class="botoes-pos-calculo" id="botoes-pos-calculo" style="display: none;">
+            <button class="btn-calculo-pos" id="btn-calcular-pos" onclick="calcular()">Calcular</button>
+            <button class="btn-limpa-campos-pos" id="btn-limpar-campos-pos" onclick="limpaCampos()">Limpar campos</button>
+        </div>
+    </div>
+
+    <script src="./scripts/script_principal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+body {
+    background-color: #010101;
+}   
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+    
+h1 {
+    margin-top: -0.3em;
+    margin-left: 0.5em;
+    color: #7579e7;
+}
+
+p{
+
+    color: black;
+    margin-left: 3.6em;
+}
+
+.input-calculo {
+
+    margin: auto;
+    width: 80%;
+    display: block;
+    padding: 0.4em;
+    box-sizing: border-box;
+    margin-bottom: 0.7em;
+}
+
+.container {
+
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 18em;
+    margin: auto;
+    margin-top: 2em;
+    padding: 3em;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.btn-calculo,
+.btn-limpa-campos,
+.btn-calculo-pos,
+.btn-limpa-campos-pos {
+  background-color: hsl(205, 100%, 50%);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  padding: 7px .7em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  margin-top: 2em;
+  margin-left: 0.8em;
+}
+
+.btn-calculo:hover,
+.btn-calculo:focus,
+.btn-limpa-campos:hover,
+.btn-limpa-campos:focus,
+.btn-calculo-pos:hover,
+.btn-calculo-pos:focus,
+.btn-limpa-campos-pos:hover,
+.btn-limpa-campos-pos:focus  {
+    background-color: #07c;
+}
+
+.btn-calculo:focus,
+.btn-limpa-campos:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.btn-calculo:active,
+.btn-limpa-campos:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.botoes {
+
+    margin-top: -12.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.botoes-pos-calculo {
+
+    margin-top: -1.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
